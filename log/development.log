@@ -1293,3 +1293,119 @@ Processing by PagesController#show as HTML
 Completed 200 OK in 34ms (Views: 30.0ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/pages/3" for 127.0.0.1 at 2018-02-08 15:12:42 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPage Load (0.5ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 301ms (Views: 271.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/pages/3" for 127.0.0.1 at 2018-02-08 15:12:45 -0500
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 42ms (Views: 37.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/3" for 127.0.0.1 at 2018-02-08 15:13:54 -0500
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 41ms (Views: 33.9ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/pages/3" for 127.0.0.1 at 2018-02-08 15:13:55 -0500
+Processing by PagesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dQJiKf4sXndqi/yVwTCusGjoa3EBeHpYj5OIhJUtCr7tbwDkTNlhgbf3D1uJSOEEWX47cXzK1PtjENpw7ev86Q==", "id"=>"3"}
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[31mDELETE FROM "pages" WHERE "pages"."id" = ?[0m  [["id", 3]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+No template found for PagesController#destroy, rendering head :no_content
+Completed 204 No Content in 104ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2018-02-08 15:14:16 -0500
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 40ms (Views: 36.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2018-02-08 15:14:17 -0500
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 125ms (Views: 120.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2018-02-08 15:14:45 -0500
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 64ms (Views: 58.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/pages/4" for 127.0.0.1 at 2018-02-08 15:14:46 -0500
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 54ms (Views: 49.4ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/pages/4" for 127.0.0.1 at 2018-02-08 15:14:47 -0500
+Processing by PagesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"8bj5AM1FpITA8o59mF4+iTV1CrbB9hLRawop1Ug/mXFp1ZvNf7Cbch2OfbPQJnE9BONatrxEvHKHiXshMPlvJg==", "id"=>"4"}
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[31mDELETE FROM "pages" WHERE "pages"."id" = ?[0m  [["id", 4]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/pages
+Completed 302 Found in 8ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2018-02-08 15:14:47 -0500
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 52ms (Views: 45.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2018-02-08 15:24:46 -0500
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 58ms (Views: 51.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/pages/2" for 127.0.0.1 at 2018-02-08 15:24:48 -0500
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 66ms (Views: 59.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2018-02-08 15:24:52 -0500
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/_form.html.erb (47.6ms)
+  Rendered pages/new.html.erb within layouts/application (56.9ms)
+Completed 200 OK in 100ms (Views: 93.9ms | ActiveRecord: 0.0ms)
+
+
