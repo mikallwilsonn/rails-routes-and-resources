@@ -867,3 +867,221 @@ Processing by PagesController#show as HTML
 Completed 200 OK in 48ms (Views: 42.5ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/pages/new" for 127.0.0.1 at 2018-02-08 12:13:34 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 292ms (Views: 268.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2018-02-08 12:14:34 -0500
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 47ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2018-02-08 12:15:25 -0500
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 37ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2018-02-08 12:15:51 -0500
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 31ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-08 12:16:48 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/michaelwilson/.rvm/gems/ruby-2.2.5/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/michaelwilson/.rvm/gems/ruby-2.2.5/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.7ms)
+Completed 200 OK in 12ms (Views: 7.3ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2018-02-08 12:16:53 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/pages" for 127.0.0.1 at 2018-02-08 12:17:02 -0500
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (1.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 76ms (Views: 68.0ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2018-02-08 12:17:04 -0500
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 72ms (Views: 64.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2018-02-08 12:17:21 -0500
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 70ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2018-02-08 12:17:32 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/pages"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/pages" for 127.0.0.1 at 2018-02-08 12:45:04 -0500
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z+d3UHuUHGGSSmVfJerEI1rdWfaQyKVbmnpeGXrgn4ozUceyHzVBEnYjSqGNrgKgvoKXXtmLqr1X/EdGzLzK3Q==", "page"=>{"title"=>"My Bio", "body"=>"I'm a Treehouse teacher", "slug"=>"bio"}, "commit"=>"Create Page"}
+Completed 500 Internal Server Error in 10ms
+
+
+  
+ActionView::MissingTemplate (Missing template pages/create, application/create with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/michaelwilson/treehouse-projects/rails-routes-and-resources/app/views"
+):
+  
+app/controllers/pages_controller.rb:15:in `create'
+Started GET "/pages" for 127.0.0.1 at 2018-02-08 12:45:08 -0500
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 73ms (Views: 63.7ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2018-02-08 12:54:01 -0500
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.7ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 60ms (Views: 54.7ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2018-02-08 12:54:02 -0500
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 53ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2018-02-08 12:54:11 -0500
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BTmhAr67SSqKrR1px0V4m10vRK519dRxyOsT/sYyhQdRjxHg2hoUWW7EMpdvAb4YuXCKBjy225cFbQqhcG7QUA==", "page"=>{"title"=>"Title", "body"=>"this is a body", "slug"=>"title"}, "commit"=>"Create Page"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "pages" ("title", "body", "slug", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Title"], ["body", "this is a body"], ["slug", "title"], ["created_at", "2018-02-08 17:54:11.696368"], ["updated_at", "2018-02-08 17:54:11.696368"]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+No template found for PagesController#create, rendering head :no_content
+Completed 204 No Content in 110ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2018-02-08 12:54:18 -0500
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 46ms (Views: 42.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/4" for 127.0.0.1 at 2018-02-08 12:54:20 -0500
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 80ms (Views: 66.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages/" for 127.0.0.1 at 2018-02-08 12:54:59 -0500
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (28.3ms)
+Completed 200 OK in 68ms (Views: 63.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2018-02-08 12:55:00 -0500
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 70ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2018-02-08 12:55:11 -0500
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dfMCGKn8MG100g2Y0SmS0qWIUJV+Z5N07LKH7bKV8RshRbL6zV1tHpC7ImZ5bVRRQdeePTcknJIhNJ6yBMmkTA==", "page"=>{"title"=>"new page", "body"=>"another", "slug"=>"new-page"}, "commit"=>"Create Page"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "pages" ("title", "body", "slug", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "new page"], ["body", "another"], ["slug", "new-page"], ["created_at", "2018-02-08 17:55:11.323108"], ["updated_at", "2018-02-08 17:55:11.323108"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/pages/5
+Completed 302 Found in 9ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/pages/5" for 127.0.0.1 at 2018-02-08 12:55:11 -0500
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 45ms (Views: 37.7ms | ActiveRecord: 0.4ms)
+
+
